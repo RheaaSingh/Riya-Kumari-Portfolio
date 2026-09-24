@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Riya Kumari — Software Engineer</title>
+  <meta name="description" content="Portfolio of Riya Kumari, Software Engineer (Fresher) specializing in Full Stack Development, REST APIs and SQL." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Decorative background blobs -->
+  <div class="bg-decor" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+  </div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-mark">RK</span>
+        <span class="brand-name">riya<span class="dot">.</span>dev</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">Hire Me</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Riya Kumari</h1>
+        <h2 class="hero-role">
+          <span id="typed"></span><span class="caret">|</span>
+        </h2>
+        <p class="hero-summary">
+          Software Engineer (Fresher) building end-to-end web applications across
+          JavaScript/Node.js and Python ecosystems. Strong in REST APIs, SQL &amp; system design fundamentals.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="https://github.com/RheaaSingh" target="_blank" rel="noopener" class="btn btn-ghost">Visit GitHub</a>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/RheaaSingh" target="_blank" rel="noopener" class="icon-btn" aria-label="GitHub">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 2.87-.39c.98 0 1.96.13 2.87.39 2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.04.77 2.1 0 1.52-.01 2.74-.01 3.12 0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/riya-kumari-2562162b9" target="_blank" rel="noopener" class="icon-btn" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"/></svg>
+          </a>
+          <a href="mailto:sendtoriya2026@gmail.com" class="icon-btn" aria-label="Email">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+          </a>
+          <a href="tel:+919608028977" class="icon-btn" aria-label="Call">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.4 11.4 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="avatar-shell">
+          <div class="avatar">RK</div>
+        </div>
+        <div class="hero-chip chip-loc">Kolkata, India</div>
+        <div class="hero-chip chip-status"><span class="pulse"></span>Open to work</div>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="container stats-inner">
+        <div class="stat"><strong>8.5<span>/10</span></strong><p>CGPA · B.Tech CSE</p></div>
+        <div class="stat"><strong>3<span>+</span></strong><p>Full-Stack Projects</p></div>
+        <div class="stat"><strong>5<span>+</span></strong><p>Certifications</p></div>
+        <div class="stat"><strong>100<span>+</span></strong><p>DSA Problems Solved</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-tag">About Me</p>
+        <h2 class="section-title">Turning ideas into <span class="grad-text">shipped products</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="card about-card">
+          <p>
+            B.Tech Computer Science graduate with hands-on full-stack development experience building and
+            deploying end-to-end web applications across JavaScript/Node.js and Python ecosystems. Strong fundamentals
+            in object-oriented programming, data structures &amp; algorithms, RESTful API design, microservices concepts,
+            and relational database design (SQL/MySQL), along with academic coursework in C++ and C#/.NET fundamentals.
+          </p>
+          <p>
+            Comfortable with Git-based version control, Docker basics, and Agile/Scrum delivery. A fast learner looking
+            to build hands-on depth on the C#/.NET stack as a Graduate Engineer Trainee.
+          </p>
+          <div class="about-cta">
+            <a href="mailto:sendtoriya2026@gmail.com" class="btn btn-primary">Download Resume</a>
+            <a href="#contact" class="btn btn-outline">Get in Touch</a>
+          </div>
+        </div>
+        <div class="card quick-facts">
+          <h3>Quick Facts</h3>
+          <ul class="facts">
+            <li><span>Role</span> Software Engineer (Fresher)</li>
+            <li><span>Location</span> Kolkata, India</li>
+            <li><span>Email</span> sendtoriya2026@gmail.com</li>
+            <li><span>Degree</span> B.Tech CSE · 2023 – 2026</li>
+            <li><span>Available</span> Immediate joining</li>
+          </ul>
+          <a href="https://github.com/RheaaSingh" target="_blank" rel="noopener" class="btn btn-ghost btn-full">
+            See all my GitHub repos
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-tag">My Arsenal</p>
+        <h2 class="section-title">Tech <span class="grad-text">Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="card skill-group">
+          <h3>Programming &amp; Fundamentals</h3>
+          <div class="chips">
+            <span class="chip">JavaScript (ES6+)</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">Python</span>
+            <span class="chip">Java</span>
+            <span class="chip">OOP &amp; SOLID</span>
+            <span class="chip">DSA</span>
+          </div>
+        </div>
+        <div class="card skill-group">
+          <h3>Backend &amp; API Development</h3>
+          <div class="chips">
+            <span class="chip">Node.js</span>
+            <span class="chip">Express.js</span>
+            <span class="chip">Django REST</span>
+            <span class="chip">REST API Design</span>
+            <span class="chip">Microservices</span>
+            <span class="chip">MVC Architecture</span>
+            <span class="chip">JWT Auth</span>
+          </div>
+        </div>
+        <div class="card skill-group">
+          <h3>Databases</h3>
+          <div class="chips">
+            <span class="chip">MySQL</span>
+            <span class="chip">MongoDB</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Query Optimization</span>
+            <span class="chip">Indexing</span>
+          </div>
+        </div>
+        <div class="card skill-group">
+          <h3>Tools &amp; Delivery</h3>
+          <div class="chips">
+            <span class="chip">Git / GitHub</span>
+            <span class="chip">Docker</span>
+            <span class="chip">CI/CD Concepts</span>
+            <span class="chip">Postman</span>
+            <span class="chip">Agile / Scrum</span>
+            <span class="chip">VS Code</span>
+          </div>
+        </div>
+        <div class="card skill-group">
+          <h3>Frontend</h3>
+          <div class="chips">
+            <span class="chip">React.js</span>
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">Responsive Design</span>
+          </div>
+        </div>
+        <div class="card skill-group">
+          <h3>Academic Coursework</h3>
+          <div class="chips">
+            <span class="chip">C++ (OOP &amp; DSA)</span>
+            <span class="chip">C# / .NET</span>
+            <span class="chip">Computer Vision</span>
+            <span class="chip">Deep Learning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-tag">Featured Work</p>
+        <h2 class="section-title">Things I've <span class="grad-text">built &amp; shipped</span></h2>
+      </div>
+      <div class="projects-grid">
+
+        <article class="card project-card">
+          <div class="project-top">
+            <span class="project-year">2026</span>
+            <span class="project-badge">Production</span>
+          </div>
+          <h3>Cook Karlo — Cloud Kitchen Platform</h3>
+          <p class="project-desc">
+            End-to-end full-stack cloud kitchen app — UI, REST API layer, and database. Microservices-oriented
+            backend for menu browsing, cart management, and order processing following MVC architecture.
+          </p>
+          <div class="chips">
+            <span class="chip">React.js</span><span class="chip">Node.js</span>
+            <span class="chip">Express.js</span><span class="chip">MongoDB</span>
+            <span class="chip">REST API</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/RheaaSingh/CookKarlo" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Source Code</a>
+            <a href="https://github.com/RheaaSingh" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">More</a>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <div class="project-top">
+            <span class="project-year">2026</span>
+            <span class="project-badge">Final Year</span>
+          </div>
+          <h3>MBA-TransNet — Skin Lesion Segmentation</h3>
+          <p class="project-desc">
+            Hybrid CNN–Transformer deep learning model for the ISIC 2018 benchmark.
+            Achieved 88.92% Dice Score and 92.98% accuracy with structured ablation studies.
+          </p>
+          <div class="chips">
+            <span class="chip">Python</span><span class="chip">PyTorch</span>
+            <span class="chip">CNN</span><span class="chip">Transformer</span>
+            <span class="chip">OpenCV</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/RheaaSingh/MBATransNet-Skin-Lesion-Segmentation" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Source Code</a>
+            <a href="https://github.com/RheaaSingh/MBATransNet-Skin-Lesion-Segmentation" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Demo Outputs</a>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <div class="project-top">
+            <span class="project-year">2026</span>
+            <span class="project-badge">AI Powered</span>
+          </div>
+          <h3>AI Resume Analyzer &amp; Interview IQ</h3>
+          <p class="project-desc">
+            Full-stack applications integrating third-party AI APIs with REST API layers and real-time UI feedback —
+            including an AI-powered interview preparation platform with resume analysis and adaptive questioning.
+          </p>
+          <div class="chips">
+            <span class="chip">React.js</span><span class="chip">Node.js</span>
+            <span class="chip">Express.js</span><span class="chip">Gemini API</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/RheaaSingh/interview-iq" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Source Code</a>
+            <a href="https://github.com/RheaaSingh" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">More</a>
+          </div>
+        </article>
+
+      </div>
+      <div class="projects-cta">
+        <a href="https://github.com/RheaaSingh?tab=repositories" target="_blank" rel="noopener" class="btn btn-primary">Explore All Repositories</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION & CERTIFICATIONS ============ -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-tag">Education</p>
+        <h2 class="section-title">Academics &amp; <span class="grad-text">Certifications</span></h2>
+      </div>
+      <div class="edu-certs-grid">
+        <div class="card edu-card">
+          <h3>Guru Nanak Institute of Technology</h3>
+          <p class="edu-meta">Kolkata, India · 2023 – 2026</p>
+          <p>Bachelor of Technology in Computer Science &amp; Engineering</p>
+          <p class="edu-score">CGPA: 8.5/10</p>
+        </div>
+        <div class="card cert-card-list">
+          <h3>Certifications</h3>
+          <ul class="cert-list">
+            <li><strong>Full Stack Web Development</strong> — Institute for Advanced Learning &amp; Skill Development <em>(Aug 2025)</em></li>
+            <li><strong>Soft Computing Techniques (Elite)</strong> — NPTEL, IIT Kharagpur <em>(Jan–Apr 2025)</em></li>
+            <li><strong>Generative AI Fundamentals</strong> — Webel Fujisoft Vara CoE <em>(Jun 2024)</em></li>
+            <li><strong>Web Development Internship</strong> — Codetech IT Solutions <em>(Oct–Dec 2025)</em></li>
+            <li><strong>Python with Django (Backend)</strong> — Ardent Computech <em>(Feb 2024)</em></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ACHIEVEMENTS ============ -->
+  <section id="achievements" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-tag">Milestones</p>
+        <h2 class="section-title">Achievements &amp; <span class="grad-text">Highlights</span></h2>
+      </div>
+      <div class="achievements-grid">
+        <div class="card ach-card"><h3>Production-Ready Shipping</h3><p>Built &amp; shipped <strong>Cook Karlo</strong>, a live full-stack application, while maintaining an 8.5/10 CGPA.</p></div>
+        <div class="card ach-card"><h3>5+ Industry Certifications</h3><p>Full-stack dev, Generative AI &amp; backend engineering earned within 18 months alongside academics.</p></div>
+        <div class="card ach-card"><h3>100+ DSA Problems</h3><p>Solved across LeetCode and HackerRank with a strong grasp of algorithms &amp; data structures.</p></div>
+        <div class="card ach-card"><h3>NPTEL Elite Grade</h3><p>Earned <strong>Elite</strong> grade in Soft Computing Techniques from IIT Kharagpur — top national percentile.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="card contact-card">
+        <div class="contact-text">
+          <h2>Let's build something <span class="grad-text">great together</span></h2>
+          <p>Open for Graduate Engineer Trainee roles and full-stack development opportunities. I usually reply within a day.</p>
+        </div>
+        <div class="contact-actions">
+          <a href="mailto:sendtoriya2026@gmail.com" class="btn btn-primary btn-icon">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+            Email Me
+          </a>
+          <a href="tel:+919608028977" class="btn btn-outline btn-icon">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.4 11.4 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2Z"/></svg>
+            Call Me
+          </a>
+          <a href="https://www.linkedin.com/in/riya-kumari-2562162b9" target="_blank" rel="noopener" class="btn btn-ghost btn-icon">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 <strong>Riya Kumari</strong>. Crafted with <span class="heart">♥</span> &amp; pure HTML + CSS.</p>
+      <div class="footer-links">
+        <a href="https://github.com/RheaaSingh" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/riya-kumari-2562162b9" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:sendtoriya2026@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
